@@ -47,7 +47,7 @@ namespace retail.Pages
             }
         }
 
-        private void ButtonRegistr_Click(object sender, RoutedEventArgs e)
+        private void ButtonRegistr_Click(object sender, RoutedEventArgs e)  
         {
             NavigationService.Navigate(new Registration());
         }
